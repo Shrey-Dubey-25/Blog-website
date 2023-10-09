@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(253, 249, 245);
+}
+a{
+    color: rgb(86, 86, 255);
+    text-decoration: none;
+}
+.header{
+    margin-bottom: 10px;
+    padding-left:40px;
+    padding-right:40px;
+    height: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.search{
+    height: 18px;
+    width: 18px;
+}
+.head1{
+    text-align: left;
+    align-self: center;
+}
+.head2{
+    text-align: center;
+    align-self: last baseline;
+}
+#text{
+    font-size: 24;
+    text-decoration: underline;
+}
+.head3{
+    text-align: right;
+    align-self: center;
+}
+.search{
+    height: 18px;
+    width: 18px;
+}
+.container{
+    display:grid;
+    height:auto;
+    width: 100%;
+    grid-template-columns: 3fr 1.2fr;
+    grid-template-rows: 10fr;
+    grid-template-areas: 
+    "main sd"
+    "main sd"
+    "ft   sd";
+}
+#main{
+    padding:30px;
+    padding-top: 10px;
+    padding-right: 15px;
+    grid-area: main;
+}
+#side{
+    grid-area: sd;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+    padding: 14px;
+}
+#foot{
+    grid-area: ft;
+}
+
+#mheading{
+    font-size: 40px;
+}
+#date{
+    margin-top: 3px;
+    font-size: 10px;
+    margin-bottom: 6px;
+    position: relative;
+    left: 7px;
+}
+#fline{
+    font-size: 16px;
+}
+hr{
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sline{
+    font-size: 16px;
+}
+#fbox{
+    margin-top: 7px;
+    border: 1px solid black;
+    margin-bottom: 7px;
+}
+#heading1{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+#heading2{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+#list1{
+    margin-top: 2px;
+    padding-left: 20px;
+}
+#list2{
+    margin-top: 4px;
+    padding-left: 20px;
+    margin-bottom: 4px;
+}
+.about h1{
+    margin-bottom: 7px;
+}
+.about{
+    margin-bottom: 7px;
+    border:1px solid black;
+    padding:10px;
+    
+}
+.about *,.about{
+    background-color: rgb(255, 240, 229);
+}
+.archives h1{
+    margin-bottom: 14px;
+}
+.archives a{
+    margin: 2px;
+}
+.archives{
+    margin-bottom: 7px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 30px;
+    margin-left: 10px;
+
+}
+.btn:hover{
+    background-color: rgb(240, 209, 209);
+    transition: 1.4s;
+}
+.foot{
+    margin: 20px;
+    padding:20px;
+}
+
+
+
